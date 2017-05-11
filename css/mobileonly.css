@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+  .mobile_only {
+    visibility: hidden;
+    clear: both;
+    float: left;
+
+    display: none;
+  }

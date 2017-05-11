@@ -45,40 +45,42 @@
     <!-- Stylesheets: App -->
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/index.css">
+    <link rel="stylesheet" media="all" href="./css/grid.css">
 
             <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
 
   <body>
-   <div id="wrapper">
-	<h1>Welcome</h1>
-
-    <div class="grid__container">
-    <div class="grid__row">
-        <div class="grid__column-12">
-	<ul class="nav">
-
-		<li class="nav__item">
-			<img class="icon" src="https://cdn0.iconfinder.com/data/icons/typicons-2/24/home-24.png" alt="">
-			<span>Home</span>
-		</li>
-		<li class="nav__item">
-			<img class="icon" src="https://cdn0.iconfinder.com/data/icons/typicons-2/24/social-facebook-24.png" alt="">
-			<span>portfolio</span>
-		</li>
-
-		<li class="nav__item">
-			<img class="icon" src="https://cdn0.iconfinder.com/data/icons/typicons-2/24/social-twitter-24.png" alt="">
-			<span>About us</span>
-		</li>
-		<li class="nav__item">
-			<img class="icon" src="https://cdn0.iconfinder.com/data/icons/typicons-2/24/phone-24.png" alt="">
-			<span>Contact </span>
-		</li>
-	</ul>
-</div>
+  
+  <div class="sf-grid__container fullHeight">
+    <div class="sf-grid__row fullHeight">
+  <div class="sf-grid__column-xxsm-3 sf-grid__column-xsm-3 sf-grid__column-sm-3 sf-grid__column-md-3 sf-grid__column-lg-3 splashpage_logo color1 fullHeight" id="splash_left">
+           
+           <h1> Web and you</h1>
+           <h2 class="lustana">start the online adventure</h2>
+           <img src="./assets/images/logo.png" alt="logo" id="logo_splash">
+        </div>
+        <div class="sf-grid__column-xxsm-9 sf-grid__column-xsm-9 sf-grid__column-sm-9 sf-grid__column-md-9 sf-grid__column-lg-9 jsplashpage_logo"> 
+            <div class="sf-grid__row" id="div_img_splash_page" > 
+            <div class="sf-grid__column-xxsm-12 sf-grid__column-xsm-12 sf-grid__column-sm-12 sf-grid__column-md-12 sf-grid__column-lg-12"> 
+            <img src="./assets/images/shockwave.jpg" alt="Photo disign of shockwave" id="img_splash_page"> </div>
+        </div>
+            <div class="sf-grid__row clearfix" > 
+            
+            <div class="nav_square"> <img src="./assets/images/home_icon.png" alt="home icon"> <p>Home</p></div>
+            <div class="nav_square"> <img src="./assets/images/aanbod_icon.png" alt="home icon" id="aanbod_icon"> <p>aanbod</p></div>
+            <div class="nav_square"> <img src="./assets/images/portfolio_icon.png" alt="home icon"> <p>portfolio</p></div>
+            <div class="nav_square"> <img src="./assets/images/over_icon.png" alt="home icon"> <p>over</p></div>
+            <div class="nav_square"> <img src="./assets/images/contact_icon.png" alt="home icon"> <p>contact</p></div>
+            
+        </div>
+        </div>
+    </div>
+  </div>
+      
+  
     <!-- Scripts: Vendors -->
       <!-- For example: jQuery, lodash, handlebars, ... -->
     <!-- Scripts: App -->
