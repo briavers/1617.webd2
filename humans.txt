@@ -5,11 +5,13 @@ Twitter: @ArteveldeHS
 Email: info [at] arteveldehs [dot] be
 Location: Ghent, Belgium
 
-Data+Design+HTML+CSS+PHP+MySQL+jQuery: Philippe De Pauw - Waterschoot
+Data+Design+HTML+CSS+PHP+MySQL+jQuery Templates : Philippe De Pauw - Waterschoot
 Website: http://www.drdynscript.org
 Twitter: @drdynscript
 Location: Ghent, Belgium
 
+Data+Design+HTML+CSS+PHP+MySQL: Verschoore Brian
+Location: Ghent, Belgium
 
 /* THANKS */
 HTML5 Template: Boilerplate
