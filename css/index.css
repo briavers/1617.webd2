@@ -1,10 +1,22 @@
-
-
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.sf-grid__container{
+    height: 100%
+}
+.sf-grid__row {
+    height: 100%
+}
 #logo_splash{
   width: 30%;
 margin-left: 35%
 }
-
+.fullheight{
+    height: 100%
+}
 .splashpage_logo{
 }
 
@@ -22,7 +34,7 @@ text-align: right;}
 
 
 #splash_left{
-height: 920px;
+height: 100%;
   
 }
 
@@ -35,12 +47,11 @@ height: 920px;
 .color6{ background-color: #ffffff;}
 
 #div_img_splash_page{
-    
+    height: 20%;
 }
 
 #img_splash_page{
-    width: 100%;
-    height: 20%;
+    height: ;
 }
 
 .nav_square{
