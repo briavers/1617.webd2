@@ -97,59 +97,46 @@ div a:nth-of-type(5) .float_left {
 }
 
 
+/* page*/
+
 
 .second_row{
-    height: 150px;;
     text-align: center
 }
 
 .second_row h1{
-    
-    margin: auto;
-    margin: 17%;
-    color: white;
-    
-}
-.second_row .qoute{
-    margin-top: 5%;
-}
-
-.third_row img{
-    width: 100%
-}
-
-.hover_img{
-    color: white;
-    text-align: center;
-    position: absolute;
-    width: 100%;
-    height: 25%;
-    top: 45%;
+    color: #4183D7;
+    font-family: 'lustana', serif;
     font-style: italic;
-    font-size: 1.5rem;
-    
-}
-
-.third_row img{
-    filter: opacity(0.45);
-    transition: 0.5s;
-}
-.third_row img:hover{
-    filter: opacity(1);
-    transition: 1s;
-     
-}
-.third_row .img_overlay:hover + h1{
-    display: none;
-    transition: 0.5s;
+    font-size: 1.6em;
 }
 
 
-
-.third_row .img_overlay{
-   background-color: #2C3E50;
-    height: 100%;
+.second_row .page_name h1{
+    color: white;
+    font-style: normal;
+     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
 }
+
+.second_row .page_name{
+    height: 150px;
+}
+
+#img_underwater, #website_img, #visit_pass{
+    width: 100%;
+}
+#fotoshop_icon{
+    width: 35%;
+}
+#html_icon, #css_icon, #js_icon, #wp_icon{
+width: 24%;
+}
+#id_icon, #ai_icon{
+    width: 35%;
+}
+
+
 
 @media screen and (min-width: 1300px) {
     #nav_brand img{visibility: visible}
