@@ -101,7 +101,8 @@ div a:nth-of-type(5) .float_left {
 
 /*  page name  */
 .second_row{
-    text-align: center
+    text-align: center;
+    margin-bottom: 1%
 }
 
 
@@ -112,6 +113,7 @@ div a:nth-of-type(5) .float_left {
     font-style: normal;
      font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
+    margin: 17%;
 }
 
 
@@ -171,11 +173,13 @@ div a:nth-of-type(5) .float_left {
 
 .second_row div .img_overlay {
    background-color: #2C3E50;
+    height: 75%
     
 }
 
 .snowboarder{
     width: 150px;
+    left: 3%;
 }
 
 

@@ -82,7 +82,7 @@ html {
 
 .sf-grid__container {
  /*max-width: 71.25rem;*/
-    width: 100%
+    width: 100%;
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -112,7 +112,9 @@ html {
 .sf-grid__row {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
-  zoom: 1; }
+  zoom: 1; 
+    padding-bottom: 0px
+}
   .sf-grid__row:before, .sf-grid__row:after {
     content: "\0020";
     display: block;
@@ -128,7 +130,7 @@ html {
   padding-right: 0.5rem;
   width: 100%;
   min-height: 1px;
-  overflow: hidden; }
+  overflow: hidden;}
 
 .sf-grid__column-1 {
   width: 8.33333%; }
@@ -557,7 +559,7 @@ html {
     width: 8.33333%; }
 
   .sf-grid__column-sm-2 {
-    width: 16.66667%; }
+    width: 16.666666667%; }
 
   .sf-grid__column-sm-3 {
     width: 25%; }
