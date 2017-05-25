@@ -148,7 +148,7 @@ div a:nth-of-type(5) .float_left {
 
 .third_row .img_overlay{
    background-color: #2C3E50;
-    height: 100%;
+    height: -webkit-calc(100% - 88px);
 }
 
 @media screen and (min-width: 1300px) {

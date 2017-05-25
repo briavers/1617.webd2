@@ -7,6 +7,7 @@
 
 /* NAVBAR */
 
+
 .clearfix:after {
    content: " "; /* Older browser do not support empty content */
    visibility: hidden;
@@ -97,11 +98,30 @@ div a:nth-of-type(5) .float_left {
 }
 
 
+
+.second_row{
+    height: 150px;;
+    text-align: center
+}
+
+.second_row h1{
+    
+    margin: auto;
+    margin: 17%;
+    color: white;
+    
+}
+
+#double_margin_error{
+    margin: 8.3%
+}
+
 /* page*/
 
 
 .second_row{
-    text-align: center
+    text-align: center;
+    height: 100%
 }
 
 .second_row h1{
@@ -110,6 +130,7 @@ div a:nth-of-type(5) .float_left {
     font-style: italic;
     font-size: 1.6em;
 }
+
 
 
 .second_row .page_name h1{
