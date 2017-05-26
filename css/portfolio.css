@@ -17,7 +17,7 @@
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #2C3E50;
 }
 .full_height{
     height: 100%
@@ -159,7 +159,14 @@ div a:nth-of-type(5) .float_left {
     transition: 1s;
      
 }
+
 .second_row .img_overlay:hover + h1{
+    display: none;
+    transition: 0.5s;
+}
+
+body > div.sf-grid__container > div:nth-child(2) > div.sf-grid__column-xxsm-3.sf-grid__column-xsm-3.sf-grid__column-sm-3.sf-grid__column-md-3.sf-grid__column-lg-3.full_height:hover > h1,
+body > div.sf-grid__container > div:nth-child(1) > div.sf-grid__column-xxsm-3.sf-grid__column-xsm-3.sf-grid__column-sm-3.sf-grid__column-md-3.sf-grid__column-lg-3.full_height:hover > h1{
     display: none;
     transition: 0.5s;
 }

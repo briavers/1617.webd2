@@ -7,7 +7,6 @@
 
 /* NAVBAR */
 
-
 .clearfix:after {
    content: " "; /* Older browser do not support empty content */
    visibility: hidden;
@@ -99,64 +98,22 @@ div a:nth-of-type(5) .float_left {
 
 
 
-.second_row{
-    height: 150px;;
+.page_name{
+    height: 150px;
     text-align: center
 }
 
-.second_row h1{
+h1{
+    text-align: center;
+}
+
+.page_name h1{
     
     margin: auto;
     margin: 17%;
     color: white;
     
 }
-
-#double_margin_error{
-    margin: 8.3%
-}
-
-/* page*/
-
-
-.second_row{
-    text-align: center;
-    height: 100%
-}
-
-.second_row h1{
-    color: #4183D7;
-    font-family: 'lustana', serif;
-    font-style: italic;
-    font-size: 1.6em;
-}
-
-
-
-.second_row .page_name h1{
-    color: white;
-    font-style: normal;
-     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2rem;
-}
-
-.second_row .page_name{
-    height: 150px;
-}
-
-#img_underwater, #website_img, #visit_pass{
-    width: 100%;
-}
-#fotoshop_icon{
-    width: 35%;
-}
-#html_icon, #css_icon, #js_icon, #wp_icon{
-width: 24%;
-}
-#id_icon, #ai_icon{
-    width: 35%;
-}
-
 
 
 @media screen and (min-width: 1300px) {
@@ -166,4 +123,125 @@ width: 24%;
 }
 
 /* page */
+
+#fieldset{
+    border: 0 none;
+
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+.adress{
+    background-color: #4183D7;
+    color: #2C3E50;
+    font-size: 1.2rem;
+    height: 150px;
+    overflow: hidden;
+}
+.normal_line_height{
+    line-height: 1rem;
+}
+
+
+
+fieldset:nth-of-type(1){
+    margin-top: 3%;
+}
+
+fieldset:nth-of-type(1){
+    margin-top: 3%;
+}
+
+
+.first_fieldset_float_left, .second_fieldset_float_left, .third_fieldset_float_left{
+    float: left;
+    width: 50%;
+}
+
+.first_fieldset_float_right, .second_fieldset_float_right, .fourth_fieldset_float_right{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+
+#mobile, #Fname, #mail{
+    width: 70%;
+    
+}
+
+
+
+
+
+.name_float{
+    float: left;
+    margin-left:;
+    width: 50%
+}
+
+
+.name_float:first-of-type{
+    margin-left: 0;
+}
+.question{
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+textarea{
+    margin-top: 3px;
+}
+
+
+
+
+
+
+button, input, optgroup, select, textarea{
+    background-color: #A0C0EA ;
+    border: 1px solid #A0C0EA;
+    padding: 1px;
+}
+
+
+textarea{
+    width: 100%;
+}
+
+#button{
+    
+    padding: 2.5%;
+    font-size: 23px;
+    background-color: #70A0DF;
+    color: #FFF;
+    position: relative;
+    top: 312px;
+}
+/* radio button */
+
+
+
+input[type = radio]{
+    margin-left: 4%;
+    
+}
+
+
+
+
+/* map */
+
+
+#map{
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+}
 
