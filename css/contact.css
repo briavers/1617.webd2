@@ -141,7 +141,7 @@ h1{
     background-color: #4183D7;
     color: #2C3E50;
     font-size: 1.2rem;
-    height: 150px;
+    height: 100%;
     overflow: hidden;
 }
 .normal_line_height{
@@ -221,8 +221,7 @@ textarea{
     font-size: 23px;
     background-color: #70A0DF;
     color: #FFF;
-    position: relative;
-    top: 312px;
+   
 }
 /* radio button */
 
