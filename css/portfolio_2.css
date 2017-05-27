@@ -157,7 +157,9 @@ width: 24%;
     width: 15%;
 }
 
-
+#pic_client, #pic_creator{
+    width: 100%;
+}
 
 @media screen and (min-width: 1300px) {
     #nav_brand img{visibility: visible}

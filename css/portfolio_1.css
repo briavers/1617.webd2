@@ -156,7 +156,9 @@ width: 24%;
 #id_icon, #ai_icon{
     width: 15%;
 }
-
+#pic_client, #pic_creator{
+    width: 100%;
+}
 
 
 @media screen and (min-width: 1300px) {
